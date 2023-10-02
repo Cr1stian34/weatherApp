@@ -1,0 +1,36 @@
+.title {
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.card_top {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	width: 348px;
+	height: 216px;
+	border-radius: 38px;
+	background: rgba(224, 224, 224, 0.50);
+	justify-items: center;
+	align-items: center;
+}
+
+.tempo{
+	grid-column-start: 1;
+	grid-column-end: 3;
+	text-align: center;
+}
+
+.tempo_grados{
+	font-size: 50px;
+}
+
+/* .app1{
+	background-image: url("/img/MacBook.png");
+	background-size: cover;
+	background-position: center;
+} */
+
+.containerDiv{
+	background-size: cover;
+	background-position: center;
+}
